@@ -6,7 +6,6 @@ module.exports = function controller(config) {
 
   if (typeof XMLHttpRequest !== 'undefined') {
     const XHR = require('./adapters/xhr')
-    console.log(XHR)
     return XHR.call(builder)
   }
 
