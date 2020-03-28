@@ -1,0 +1,11 @@
+{
+  "name": "kayden",
+  "version": "0.5.0",
+  "description": "Rest client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kiran Earle",
+  "license": "ISC"
+}
