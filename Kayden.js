@@ -1,5 +1,7 @@
 const controller = require('./controller')
-
+/**
+ * Kayden class
+ */
 function Kayden() {}
 
 Kayden.prototype.get = function Get(url, headers) {
