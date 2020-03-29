@@ -15,7 +15,7 @@ import kayden from 'kayden'
 
 const url = 'https://jsonplaceholder.typicode.com/posts'
 
-const = async () => {
+const data = async () => {
   try {
     const response = await kayden.get(url)
   } catch (e) {
@@ -38,7 +38,7 @@ const body = {
   userId: 1
 }
 
-const = async () => {
+const data = async () => {
   try {
     const response = await kayden.post(url, body)
   } catch (e) {
