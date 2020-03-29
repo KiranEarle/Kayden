@@ -1,11 +1,15 @@
 {
   "name": "kayden",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Rest client",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kiran Earle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KiranEarle/Kayden"
+  },
   "license": "ISC"
 }
