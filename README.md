@@ -8,7 +8,9 @@ Both XMLHttpRequests for browsers and HTTP for node.js
 
 ## Installation
 
-```$ npm install kayden```
+```
+$ npm install kayden
+```
 
 ## Usage
 
