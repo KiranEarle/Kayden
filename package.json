@@ -4,12 +4,15 @@
   "description": "Rest client",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Kiran Earle",
   "repository": {
     "type": "git",
     "url": "https://github.com/KiranEarle/Kayden"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.2.3"
+  }
 }
