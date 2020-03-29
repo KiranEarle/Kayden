@@ -4,44 +4,44 @@ const controller = require('./controller')
  */
 function Kayden() {}
 
-Kayden.prototype.get = function Get(url, headers) {
+Kayden.prototype.get = function Get(url, options) {
   const method = 'GET'
-  return controller({ url, headers, method })
+  return controller({ url, options, method })
 }
 
-Kayden.prototype.post = function Post(url, body, headers) {
+Kayden.prototype.post = function Post(url, body, options) {
   const method = 'POST'
   return controller({
     url,
     body,
-    headers,
+    options,
     method,
   })
 }
 
-Kayden.prototype.put = function Put(url, body, headers) {
+Kayden.prototype.put = function Put(url, body, options) {
   const method = 'PUT'
   return controller({
     url,
     body,
-    headers,
+    options,
     method,
   })
 }
 
-Kayden.prototype.patch = function Patch(url, body, headers) {
+Kayden.prototype.patch = function Patch(url, body, options) {
   const method = 'PATCH'
   return controller({
     url,
     body,
-    headers,
+    options,
     method,
   })
 }
 
-Kayden.prototype.delete = function Delete(url, headers) {
+Kayden.prototype.delete = function Delete(url, options) {
   const method = 'DELETE'
-  return controller({ url, headers, method })
+  return controller({ url, options, method })
 }
 
 const kayden = new Kayden()
