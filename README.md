@@ -29,18 +29,19 @@ const data = async () => {
 
 ```javascript
 import kayden from 'kayden'
-
-const url = 'https://jsonplaceholder.typicode.com/posts'
-const body = {
-  id: 101,
-  title: 'foo',
-  body: 'bar',
-  userId: 1
+const config = {
+  url: 'https://jsonplaceholder.typicode.com/posts',
+  body: {
+    id: 101,
+    title: 'foo',
+    body: 'bar',
+    userId: 1
+  },
 }
 
 const data = async () => {
   try {
-    const response = await kayden.post(url, body)
+    const response = await kayden.post(config.url, config.body)
   } catch (e) {
     console.warn(e)
   }
