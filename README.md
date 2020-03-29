@@ -10,7 +10,7 @@ Both XMLHttpRequests for browsers and HTTP for node.js
 
 ### Get
 
-```
+```javascript
 import kayden from 'kayden'
 
 const url = 'https://jsonplaceholder.typicode.com/posts'
@@ -27,7 +27,7 @@ const data = async () => {
 
 ### Post
 
-```
+```javascript
 import kayden from 'kayden'
 
 const url = 'https://jsonplaceholder.typicode.com/posts'
