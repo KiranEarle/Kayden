@@ -2,8 +2,17 @@ const http = require('http')
 const https = require('https')
 const url = require('url')
 
+/**
+ * HTTP adapter
+ * @class
+ */
 function HTTP() {}
 
+/**
+ * Builds options for the HTTP request
+ *
+ * @returns {Object}
+ */
 HTTP.prototype.options = function options() {
   const parsedUrl = url.parse(this.url)
   return {
@@ -14,6 +23,12 @@ HTTP.prototype.options = function options() {
     path: parsedUrl.path,
   }
 }
+
+/**
+ * The initialised function which makes the HTTP request
+ * Leverages the context of the builder
+ * @returns {Promise}
+ */
 
 HTTP.prototype.request = function requestFunction() {
   return new Promise((resolve, reject) => {

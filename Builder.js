@@ -1,3 +1,14 @@
+/**
+ * Builder class that creates context for
+ * either the XHR or HTTP class functions
+ * @class
+ *
+ * @param {string} url
+ * @param {string} method
+ * @param {Object} body
+ * @param {Object} options
+ */
+
 module.exports = function Builder({
   url,
   method = null,
@@ -11,6 +22,6 @@ module.exports = function Builder({
   this.method = method
   this.body = body
   this.options = options
-  this.headers = headers
-  this.responseType = responseType
+  this.headers = options.headers
+  this.responseType = options.responseType
 }
