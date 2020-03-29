@@ -73,12 +73,12 @@ import kayden from 'kayden'
 
 ## Methods
 
-# kayden#get(url [, options])
+#### kayden#get(url [, options])
 
-# kayden#post(url [, body] [, options])
+#### kayden#post(url [, body] [, options])
 
-# kayden#put(url [, body] [, options])
+#### kayden#put(url [, body] [, options])
 
-# kayden#patch(url [, body] [, options])
+#### kayden#patch(url [, body] [, options])
 
-# kayden#delete(url [, options])
+#### kayden#delete(url [, options])
