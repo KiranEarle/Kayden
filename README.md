@@ -73,6 +73,8 @@ import kayden from 'kayden'
 
 ## Methods
 
+Methods used on the instances:
+
 #### kayden#get(url [, options])
 
 #### kayden#post(url [, body] [, options])
