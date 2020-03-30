@@ -1,6 +1,6 @@
 {
   "name": "kayden",
-  "version": "0.7.7",
+  "version": "0.7.8",
   "description": "Rest client",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,13 @@
     "url": "https://github.com/KiranEarle/Kayden"
   },
   "license": "ISC",
+  "keywords": [
+    "javascript",
+    "http-client",
+    "http-request",
+    "xhr",
+    "nodejs"
+  ],
   "dependencies": {
     "jest": "^25.2.3"
   }
