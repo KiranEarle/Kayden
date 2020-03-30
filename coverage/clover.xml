@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1585500734094" clover="3.2.0">
-  <project timestamp="1585500734096" name="All files">
-    <metrics statements="13" coveredstatements="12" conditionals="11" coveredconditionals="9" methods="4" coveredmethods="4" elements="28" coveredelements="25" complexity="0" loc="13" ncloc="13" packages="1" files="3" classes="3"/>
+<coverage generated="1585577904407" clover="3.2.0">
+  <project timestamp="1585577904407" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="11" coveredconditionals="11" methods="4" coveredmethods="4" elements="28" coveredelements="28" complexity="0" loc="13" ncloc="13" packages="1" files="3" classes="3"/>
     <file name="conclude.js" path="/Users/kiranearle/Documents/Repos/Kayden/utils/conclude.js">
-      <metrics statements="8" coveredstatements="7" conditionals="8" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
       <line num="15" count="1" type="stmt"/>
-      <line num="16" count="2" type="stmt"/>
-      <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="19" count="0" type="stmt"/>
-      <line num="23" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="24" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="16" count="4" type="stmt"/>
+      <line num="17" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="23" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="25" count="1" type="stmt"/>
     </file>
     <file name="isObject.js" path="/Users/kiranearle/Documents/Repos/Kayden/utils/isObject.js">

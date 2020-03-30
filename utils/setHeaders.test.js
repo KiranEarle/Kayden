@@ -1,6 +1,5 @@
 const setHeaders = require('./setHeaders')
 
-
 const mockXhr = () => ({
   setRequestHeader: jest.fn()
 })
