@@ -1,4 +1,4 @@
-const conclude = require('./conclude')
+const conclude = require('../conclude')
 
 const mockPromise = () => ({
   resolve: jest.fn(),

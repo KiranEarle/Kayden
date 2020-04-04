@@ -1,4 +1,4 @@
-const setHeaders = require('./setHeaders')
+const setHeaders = require('../setHeaders')
 
 const mockXhr = () => ({
   setRequestHeader: jest.fn()

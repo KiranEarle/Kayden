@@ -1,4 +1,4 @@
-const isObject = require('./isObject')
+const isObject = require('../isObject')
 
 const obj = {
   'Content-Type': 'application/json;charset=utf-8'
